@@ -53,5 +53,5 @@
   "main": "tailwind.config.js",
   "author": "",
   "license": "ISC",
-  "proxy": "http://localhost:2424/"
+  "proxy": "https://portfolio-back-end-uo1c.onrender.com/"
 }
