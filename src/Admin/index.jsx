@@ -23,20 +23,19 @@ function Admin() {
 	return (
 		<div>
 			<Header />
-			<div className="flex gap-10 items-center px-2 justify-between">
-				<div className="flex gap-10 items-center">
-					<h1 className='text-2xl text-primary'>
-						Admin Panel
-					</h1>
+			<div className='flex gap-10 items-center px-2 justify-between'>
+				<div className='flex gap-10 items-center'>
+					<h1 className='text-2xl text-primary'>Admin Panel</h1>
 					<div className='w-60 h-[1px] bg-gray-500'></div>
 				</div>
-				<h1 className='underline text-primary text-xl cursor-pointer'
-				onClick={() => {
-					localStorage.removeItem("token");
-					window.location.href = "/admin-login";
-				}}
-				
-				>Logout</h1>
+				<h1
+					className='underline text-primary text-xl cursor-pointer'
+					onClick={() => {
+						localStorage.removeItem("token");
+						window.location.href = "/admin-login";
+					}}>
+					Logout
+				</h1>
 			</div>
 			{portfolioData && (
 				<div className=' p-5 font-semibold sm:overflow-x-auto'>
