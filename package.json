@@ -53,5 +53,5 @@
   "main": "tailwind.config.js",
   "author": "",
   "license": "ISC",
-  "proxy": "https://portfolio-back-end-ebon.vercel.app/"
+  "proxy": "http://localhost:2424/"
 }
